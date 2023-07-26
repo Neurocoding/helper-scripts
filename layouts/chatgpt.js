@@ -8,7 +8,7 @@ document.onreadystatechange = () => {
 	main.classList.add('flex-row');
 	main.classList.remove('flex-col');
 	
-	var output = main.childNodes[1];
+	var output = main.childNodes[0];
 	// Wait until the output_messages are loaded
 	let stateCheck = setInterval(() => {
 		// Resize spacer at bottom of messages
@@ -26,7 +26,7 @@ document.onreadystatechange = () => {
 	}, 100);
 	
 	// Resize input container
-	var input = main.childNodes[2];
+	var input = main.childNodes[1];
 	input.classList.add('flex-1');
 	input.classList.remove('absolute');
 	input.classList.remove('w-full');
