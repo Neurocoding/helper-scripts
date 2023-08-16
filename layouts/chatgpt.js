@@ -38,6 +38,7 @@ document.onreadystatechange = () => {
 	// Wait until the elements are ready
 	stateCheck = setInterval(() => {
 		// Get the textarea input field	
+		// Ny kommentar tilføjet ---- Fox was here
 		if (input_field = input.childNodes[0].childNodes[0].childNodes[1].childNodes[0]) {
 			// Remove set styling
 			input_field.style.removeProperty('max-height');
