@@ -40,6 +40,7 @@ document.onreadystatechange = () => {
 		// Get the textarea input field	
 		if (input_field = input.childNodes[0].childNodes[0].childNodes[1].childNodes[0]) {
 			// Remove set styling
+			// Remove attitude
 			input_field.style.removeProperty('max-height');
 			input_field.style.removeProperty('height');
 			input_field.style.removeProperty('overflow-y');
